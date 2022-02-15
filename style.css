@@ -1,0 +1,66 @@
+/*overall background color, font, text alignment, text color, and padding*/
+body{
+  background-color: #F7FEFF;
+  font-family: Courier New;
+  text-align: center;
+  color: #043B55;
+  padding-top: 20px;
+}
+
+/*determines the position and margins of how the other pages are linked in the homepage*/
+ul{
+  float:left;
+  list-style-type: none;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+/*set width and height regardless of margins*/
+ul li{
+  display: inline-block;
+}
+
+/*gets rid of the underline in text, manages color and padding*/
+ul li a{
+text-decoration: none;
+color:#043B55;
+padding:5px 20px
+}
+
+/*when the mouse hovers, text changes color*/
+ul li a:hover {
+  color: #010305;
+}
+
+/*the color, text alignment, font of other pages linked in homepage*/
+.main{
+  background-color: #F7FEFF;
+  font-family: Courier New;
+  text-align: center;
+  color: #043B55;
+}
+
+/*font, text alignment, color, size, and margins for any subtext*/
+.subtext{
+  font-family: Courier New;
+  text-align: center;
+  color: #043B55;
+  font-size: 18px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+/*makes the image in the statistics page float left*/
+.statimage{
+  float:left;
+}
+
+/*places the text in the statistics next to the image*/
+.stattext{
+  display: grid;
+  padding-left: 850px;
+  padding-right: 10px;
+  display: inline-block;
+  padding-top: 0px;
+}
