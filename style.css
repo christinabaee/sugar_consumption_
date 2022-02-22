@@ -9,7 +9,7 @@ body{
 
 /*determines the position and margins of how the other pages are linked in the homepage*/
 ul{
-  float:left;
+text-align: left;
   list-style-type: none;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -37,7 +37,7 @@ ul li a:hover {
 .main{
   background-color: #F7FEFF;
   font-family: Courier New;
-  text-align: center;
+  text-align: left;
   color: #043B55;
 }
 
@@ -53,14 +53,29 @@ ul li a:hover {
 
 /*makes the image in the statistics page float left*/
 .statimage{
-  float:left;
+  flex:0;
 }
 
 /*places the text in the statistics next to the image*/
 .stattext{
-  display: grid;
-  padding-left: 850px;
-  padding-right: 10px;
   display: inline-block;
-  padding-top: 0px;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+
+.flexboxitem{
+  width: 300px;
+  margin: 10px;
+  background-color: #00FFFFFF;
+}
+
+.flexboxitem-1{
+  min-height: 500px;
+}
+.flexboxitem-2{
+  min-height: 500px;
 }
